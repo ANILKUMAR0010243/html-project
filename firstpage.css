@@ -1,0 +1,77 @@
+body{
+    background-color: beige;
+    font-family: Arial, sans-serif;
+}
+.logo {
+  text-align: center;
+  margin-top: 20px;
+}
+.header-image {
+  width: 600px; 
+  height: auto;
+}
+h1 {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 35px;
+  color: teal;
+  text-decoration-line: underline;
+  text-decoration-style:dashed;
+}
+
+h2 {
+  margin-top: 30px;
+  font-size: 30px;
+  text-decoration-line: underline;
+  color: #ea3939;
+}
+
+form {
+  margin: 0 auto;
+  width: 300px;
+  padding: 10px;
+}
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+button {
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0056b3;
+}
+.login-sections {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+.login-box {
+  width: 48%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #ffffff; /* white background */
+  border: 1px solid #ccc;    /* light gray border */
+  border-radius: 8px;        /* rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* subtle shadow */
+}
